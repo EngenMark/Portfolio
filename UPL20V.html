@@ -22,8 +22,24 @@
 		<!-- Nagłówek -->
 		<header id="header">
 			<h1><a href="index.html">Mark Potapchuk</a></h1>
-			<nav><a href="#menu">Menu</a></nav>
+			<nav>
+				<!-- Активный язык -->
+				<a href="#" class="lang-btn">
+					<img src="images/flags/pl.svg" alt="PL" style="height:16px; vertical-align:middle;" />
+				</a>
+
+				<!-- Кнопка меню -->
+				<a href="#menu">Menu</a>
+
+				<!-- Выпадающий список языков -->
+				<div class="lang-dropdown">
+					<a href="UPL20V.html"><img src="images/flags/pl.svg" alt="PL" /> Polski</a>
+					<a href="UPL20V_de.html"><img src="images/flags/de.svg" alt="DE" /> Deutsch</a>
+					<a href="UPL20V_en.html"><img src="images/flags/gb.svg" alt="EN" /> English</a>
+				</div>
+			</nav>
 		</header>
+
 
 		<!-- Menu mobilne -->
 		<nav id="menu">
@@ -151,6 +167,7 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/lang.js"></script>
 
 	<!-- Lightbox2 JS -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>

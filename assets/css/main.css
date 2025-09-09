@@ -4264,3 +4264,41 @@ a[data-lightbox] {
 .mb-4 {
   margin-bottom: 1.5rem;
 }
+/* Кнопка языка в стиле кнопки меню */
+#header nav .lang-btn {
+	padding: 0 1.5em;
+	line-height: 3.25em;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	letter-spacing: 0.25em;
+}
+
+/* Выпадающий список языков */
+.lang-dropdown {
+	display: none;
+	position: absolute;
+	background: #2e3141; /* цвет как у меню */
+	right: 0;
+	top: 60px; /* чуть ниже шапки */
+	min-width: 160px;
+	z-index: 1000;
+	border-radius: 4px;
+}
+
+.lang-dropdown a {
+	display: block;
+	padding: 0.5em 1em;
+	color: #fff;
+	text-decoration: none;
+	font-size: 0.7em;
+}
+
+.lang-dropdown a:hover {
+	background: #444857;
+}
+/* Флаги в выпадающем меню */
+.lang-dropdown a img {
+	height: 14px;  /* меньше размер */
+	width: auto;
+	display: inline-block;
+}
